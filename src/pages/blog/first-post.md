@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/layout1.astro"
 title: "Whereas disregard and contempt for human rights have resulted"
 description: "Well, you’ve done it! You’ve made your own blog, custom-fit with a domain and personalized layout. And now that your site is ready to go, it’s time to start populating it with content. Whether you want to share ideas, make money, promote a brand, or boost SEO, blogging is a proven way to do it, by increasing site traffic and improving conversion rates."
 pubDate: "Jul 08 2022"

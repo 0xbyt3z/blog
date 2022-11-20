@@ -76,7 +76,7 @@ blockquote {
 
 @layer components {
   p {
-    @apply my-5 text-justify;
+    @apply my-5 text-justify text-xl;
   }
   img {
     @apply w-screen;

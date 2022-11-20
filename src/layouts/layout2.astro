@@ -28,11 +28,7 @@ const {
     <Header />
     <main class="px-5 md:px-0 md:w-8/12 mx-auto">
       <article>
-        <h1 class="text-2xl font-bold text-gray-800 my-10 text-center font1 md:text-5xl">{title}</h1>
-
-        <p class="hidden md:block text-center text-gray-500 mb-10">{description}</p>
-
-        <div class="w-full flex md:justify-center h-auto items-center">
+        <div class="w-full flex h-auto items-center mt-24">
           <div class="w-10 h-10 md:w-14 md:h-14 rounded-full bg-black flex items-center justify-center">
             <img src="/image.jpg" alt="" class="object-fill w-full h-full rounded-full" />
           </div>
@@ -42,7 +38,9 @@ const {
           </div>
         </div>
 
-        {heroImage && <img src={heroImage} alt="" class="mt-16 mb-10 w-full" />}
+        <h1 class="text-2xl font-bold text-gray-800 my-10 md:text-5xl">{title}</h1>
+
+        <p class="hidden md:block text-gray-500 mb-10">{description}</p>
 
         {
           updatedDate && (
